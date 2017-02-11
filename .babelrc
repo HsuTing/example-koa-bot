@@ -1,0 +1,17 @@
+{
+  "presets": [
+    "latest",
+    "stage-0"
+  ],
+  "plugins": [
+    "transform-object-assign",
+    ["module-resolver", {
+      "root": ["./src"],
+      "alias": {
+        "routes": "routes",
+        "middleware": "middleware",
+        "utils": "utils"
+      }
+    }]
+  ]
+}
