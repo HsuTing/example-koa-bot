@@ -893,9 +893,9 @@ caseless@~0.11.0:
   version "0.11.0"
   resolved "https://registry.yarnpkg.com/caseless/-/caseless-0.11.0.tgz#715b96ea9841593cc33067923f5ec60ebda4f7d7"
 
-cat-middleware@^0.0.1:
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/cat-middleware/-/cat-middleware-0.0.1.tgz#e140a887570b3e0956b044cdec6a817807010652"
+cat-middleware@^0.0.2:
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/cat-middleware/-/cat-middleware-0.0.2.tgz#e2a11a14f649b771b2a793691cced683cc14e919"
 
 chalk@0.5.1:
   version "0.5.1"
