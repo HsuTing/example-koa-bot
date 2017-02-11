@@ -38,6 +38,6 @@ app.use(router.middleware());
 app.use(botFB(receivedMessage).middleware());
 
 // setting
-app.listen(ENV ? 80 : 8000, () => {
+app.listen(ENV ? process.env.PORT : 8000, () => {
   console.log('server start');
 });
