@@ -8,9 +8,7 @@
     ["module-resolver", {
       "root": ["./src"],
       "alias": {
-        "routes": "routes",
-        "middleware": "middleware",
-        "utils": "utils"
+        "fb": "fb"
       }
     }]
   ]

@@ -9,10 +9,8 @@ import morgan from 'koa-morgan';
 import helmet from 'koa-helmet';
 import compress from 'koa-compress';
 import etag from 'koa-etag';
-import botFB from 'cat-middleware/lib/koa-bot-fb';
 
 import router from './router';
-import receivedMessage from 'fb/receivedMessage';
 
 const app = new Koa();
 const root = path.resolve(__dirname, './../');
@@ -36,7 +34,6 @@ app.use(compress({
   flush: zlib.Z_SYNC_FLUSH
 }));
 app.use(router.middleware());
-app.use(botFB(receivedMessage).middleware());
 
 // setting
 app.listen(ENV ? process.env.PORT : 8000, () => {
