@@ -8,7 +8,6 @@
     ["module-resolver", {
       "root": ["./src"],
       "alias": {
-        "fb": "fb"
       }
     }]
   ]
